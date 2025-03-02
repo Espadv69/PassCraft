@@ -1,12 +1,52 @@
-# React + Vite
+# PassCraft 🔐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**PassCraft** is a simple and secure password generator built with **React** and **Vite**. Create strong, customizable passwords with ease!
 
-Currently, two official plugins are available:
+![PassCraft Screenshot] <!-- Add a screenshot later -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features ✨
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Generate random and secure passwords.
+- Customize password length.
+- Include/exclude uppercase letters, numbers, and special characters.
+- Copy generated passwords to the clipboard with one click.
+- Lightweight and fast, thanks to Vite.
+
+---
+
+## Technologies Used 🛠️
+
+- **React** - JavaScript library for building the user interface.
+- **Vite** - Fast build tool and development server.
+- **TailwindCSS** - Utility-first CSS framework for styling.
+- **Clipboard API** - For copying passwords to the clipboard.
+
+---
+
+## Installation 🚀
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Espadv69/PassCraft.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd PassCraft
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+---
+
+## How to Use 🎯
+1. Adjust the password length using the slider.
+2. Toggle options like uppercase letters, numbers, and special characters.
+3. Click "Generate Password" to create a new password.
+4. Click the copy icon to copy the password to your clipboard.
