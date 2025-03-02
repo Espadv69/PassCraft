@@ -10,7 +10,7 @@ const PasswordDisplay = ({ password }) => {
 
   return (
     <div className="mb-6">
-      <div className="flex items-center justify-between bg-gray-100 p-4 rounded-lg">
+      <div className="flex flex-col items-center justify-between gap-2 bg-gray-100 p-4 rounded-lg">
         <span className="text-lg font-mono text-gray-700">
           {password || 'Generate a password'}
         </span>
