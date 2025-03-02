@@ -6,7 +6,7 @@ const Slider = ({ value, onChange }) => {
         <input
           type="range"
           min="6"
-          max="32"
+          max="24"
           value={value}
           onChange={onChange}
           className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"
