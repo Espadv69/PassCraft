@@ -23,4 +23,15 @@ export const usePasswordGenerator = () => {
 
     setPassword(newPassword)
   }
+
+  return {
+    password,
+    length,
+    setLength,
+    includeNumbers,
+    setIncludeNumbers,
+    includeSymbols,
+    setIncludeSymbols,
+    generatePassword,
+  }
 }
