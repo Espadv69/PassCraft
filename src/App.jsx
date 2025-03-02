@@ -25,12 +25,12 @@ const App = () => {
         <Checkbox
           label="Include Numbers"
           checked={includeNumbers}
-          onChange={(e) => setIncludeNumbers(e.target.value)}
+          onChange={(e) => setIncludeNumbers(e.target.checked)}
         />
         <Checkbox
           label="Include Symbols"
           checked={includeSymbols}
-          onChange={(e) => setIncludeSymbols(e.target.value)}
+          onChange={(e) => setIncludeSymbols(e.target.checked)}
         />
         <button
           onClick={generatePassword}
