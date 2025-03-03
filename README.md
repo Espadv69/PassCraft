@@ -43,7 +43,6 @@
    ```bash
    npm run dev
    ```
-
 ---
 
 ## How to Use 🎯
@@ -52,3 +51,9 @@
 2. Toggle options like uppercase letters, numbers, and special characters.
 3. Click "Generate Password" to create a new password.
 4. Click the copy icon to copy the password to your clipboard.
+
+---
+
+## Live Demo
+
+[Link to live demo (https://passcraft-esp.netlify.app/)]
