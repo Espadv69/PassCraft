@@ -2,7 +2,7 @@
 
 **PassCraft** is a simple and secure password generator built with **React** and **Vite**. Create strong, customizable passwords with ease!
 
-![PassCraft Screenshot] <!-- Add a screenshot later -->
+![PassCraft Screenshot](/screenshot-passcraft.png)
 
 ---
 
@@ -43,9 +43,11 @@
    ```bash
    npm run dev
    ```
+
 ---
 
 ## How to Use 🎯
+
 1. Adjust the password length using the slider.
 2. Toggle options like uppercase letters, numbers, and special characters.
 3. Click "Generate Password" to create a new password.
