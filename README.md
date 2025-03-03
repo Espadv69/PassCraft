@@ -2,7 +2,7 @@
 
 **PassCraft** is a simple and secure password generator built with **React** and **Vite**. Create strong, customizable passwords with ease!
 
-![PassCraft Screenshot](/screenshot-passcraft.png)
+![PassCraft Screenshot](./public/screenshot-passcraft.png)
 
 ---
 
